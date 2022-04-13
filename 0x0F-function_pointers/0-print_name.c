@@ -4,6 +4,8 @@
  * print_name - will print a name
  * @name: name to be printed
  * @f: pointer to the printing function
+ * 
+ * Return: no return
  */
 void print_name(char *name, void (*f)(char *))
 {
